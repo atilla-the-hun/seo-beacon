@@ -303,7 +303,7 @@ function Index() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="glass mx-auto mt-4 flex max-w-2xl items-center gap-2 p-2 sm:p-2.5"
+            className="glass mx-auto mt-4 flex max-w-2xl flex-col gap-2 p-2 sm:flex-row sm:items-center sm:p-2.5"
             style={{ boxShadow: "var(--shadow-glow)" }}
           >
             <input
@@ -706,12 +706,12 @@ function FeatureGrid() {
     //  icon: "📋",
       accent: "var(--color-primary)",
     },
-    {
-      t: "PDF Report",
-      d: "Multi-page executive report covering all dimensions with issues and recommendations.",
+   // {
+    //  t: "PDF Report",
+    //  d: "Multi-page executive report covering all dimensions with issues and recommendations.",
     //  icon: "📄",
-      accent: "var(--color-warning)",
-    },
+    //  accent: "var(--color-warning)",
+   // },
     {
       t: "Full Site Audit",
       d: "Crawl up to 30 pages — duplicate detection, broken links, thin content, sitemap discovery, and cross-page scoring.",
